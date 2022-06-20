@@ -6,7 +6,7 @@
   <link href="https://avager1.github.io/junyong.github.io/atom.xml" rel="self"/>
   
   <link href="https://avager1.github.io/junyong.github.io/"/>
-  <updated>2022-06-20T11:10:02.501Z</updated>
+  <updated>2022-06-20T11:20:38.953Z</updated>
   <id>https://avager1.github.io/junyong.github.io/</id>
   
   <author>
@@ -21,14 +21,14 @@
     <link href="https://avager1.github.io/junyong.github.io/2022/06/20/ajax/"/>
     <id>https://avager1.github.io/junyong.github.io/2022/06/20/ajax/</id>
     <published>2022-06-20T01:25:00.000Z</published>
-    <updated>2022-06-20T11:10:02.501Z</updated>
+    <updated>2022-06-20T11:20:38.953Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;AJAX&quot;&gt;&lt;a href=&quot;#AJAX&quot; class=&quot;headerlink&quot; title=&quot;AJAX&quot;&gt;&lt;/a&gt;AJAX&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;/junyong.github.io/assets/1654844556525.png&quot;</summary>
+    <summary type="html">&lt;h1 id=&quot;AJAX&quot;&gt;&lt;a href=&quot;#AJAX&quot; class=&quot;headerlink&quot; title=&quot;AJAX&quot;&gt;&lt;/a&gt;AJAX&lt;/h1&gt;&lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -40,31 +40,6 @@
     <category term="JavaWeb" scheme="https://avager1.github.io/junyong.github.io/tags/JavaWeb/"/>
     
     <category term="AJAX" scheme="https://avager1.github.io/junyong.github.io/tags/AJAX/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JavaScript</title>
-    <link href="https://avager1.github.io/junyong.github.io/2022/06/20/javascript/"/>
-    <id>https://avager1.github.io/junyong.github.io/2022/06/20/javascript/</id>
-    <published>2022-06-20T01:25:00.000Z</published>
-    <updated>2022-06-20T11:10:01.184Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;JavaScript&quot;&gt;&lt;a href=&quot;#JavaScript&quot; class=&quot;headerlink&quot; title=&quot;JavaScript&quot;&gt;&lt;/a&gt;JavaScript&lt;/h1&gt;&lt;h2 id=&quot;概念&quot;&gt;&lt;a href=&quot;#概念&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="JavaWeb" scheme="https://avager1.github.io/junyong.github.io/categories/JavaWeb/"/>
-    
-    
-    <category term="JavaScript" scheme="https://avager1.github.io/junyong.github.io/tags/JavaScript/"/>
     
   </entry>
   
@@ -92,6 +67,31 @@
     <category term="JavaWeb" scheme="https://avager1.github.io/junyong.github.io/tags/JavaWeb/"/>
     
     <category term="JDBC" scheme="https://avager1.github.io/junyong.github.io/tags/JDBC/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaScript</title>
+    <link href="https://avager1.github.io/junyong.github.io/2022/06/20/javascript/"/>
+    <id>https://avager1.github.io/junyong.github.io/2022/06/20/javascript/</id>
+    <published>2022-06-20T01:25:00.000Z</published>
+    <updated>2022-06-20T11:10:01.184Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;JavaScript&quot;&gt;&lt;a href=&quot;#JavaScript&quot; class=&quot;headerlink&quot; title=&quot;JavaScript&quot;&gt;&lt;/a&gt;JavaScript&lt;/h1&gt;&lt;h2 id=&quot;概念&quot;&gt;&lt;a href=&quot;#概念&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="JavaWeb" scheme="https://avager1.github.io/junyong.github.io/categories/JavaWeb/"/>
+    
+    
+    <category term="JavaScript" scheme="https://avager1.github.io/junyong.github.io/tags/JavaScript/"/>
     
   </entry>
   
@@ -181,33 +181,6 @@
   </entry>
   
   <entry>
-    <title>微信小程序开发</title>
-    <link href="https://avager1.github.io/junyong.github.io/2022/06/20/wei-xin-xiao-cheng-xu-kai-fa/"/>
-    <id>https://avager1.github.io/junyong.github.io/2022/06/20/wei-xin-xiao-cheng-xu-kai-fa/</id>
-    <published>2022-06-20T01:25:00.000Z</published>
-    <updated>2022-06-20T10:02:28.678Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;微信小程序开发&quot;&gt;&lt;a href=&quot;#微信小程序开发&quot; class=&quot;headerlink&quot; title=&quot;微信小程序开发&quot;&gt;&lt;/a&gt;微信小程序开发&lt;/h1&gt;&lt;h2 id=&quot;1-swiper组件属性&quot;&gt;&lt;a href=&quot;#1-swiper组件属性&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="开发" scheme="https://avager1.github.io/junyong.github.io/categories/%E5%BC%80%E5%8F%91/"/>
-    
-    
-    <category term="Markdown" scheme="https://avager1.github.io/junyong.github.io/tags/Markdown/"/>
-    
-    <category term="微信小程序开发" scheme="https://avager1.github.io/junyong.github.io/tags/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Spring_day02</title>
     <link href="https://avager1.github.io/junyong.github.io/2022/06/20/spring-day02/"/>
     <id>https://avager1.github.io/junyong.github.io/2022/06/20/spring-day02/</id>
@@ -262,6 +235,33 @@
     <category term="Markdown" scheme="https://avager1.github.io/junyong.github.io/tags/Markdown/"/>
     
     <category term="Spring" scheme="https://avager1.github.io/junyong.github.io/tags/Spring/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>微信小程序开发</title>
+    <link href="https://avager1.github.io/junyong.github.io/2022/06/20/wei-xin-xiao-cheng-xu-kai-fa/"/>
+    <id>https://avager1.github.io/junyong.github.io/2022/06/20/wei-xin-xiao-cheng-xu-kai-fa/</id>
+    <published>2022-06-20T01:25:00.000Z</published>
+    <updated>2022-06-20T10:02:28.678Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;微信小程序开发&quot;&gt;&lt;a href=&quot;#微信小程序开发&quot; class=&quot;headerlink&quot; title=&quot;微信小程序开发&quot;&gt;&lt;/a&gt;微信小程序开发&lt;/h1&gt;&lt;h2 id=&quot;1-swiper组件属性&quot;&gt;&lt;a href=&quot;#1-swiper组件属性&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="开发" scheme="https://avager1.github.io/junyong.github.io/categories/%E5%BC%80%E5%8F%91/"/>
+    
+    
+    <category term="Markdown" scheme="https://avager1.github.io/junyong.github.io/tags/Markdown/"/>
+    
+    <category term="微信小程序开发" scheme="https://avager1.github.io/junyong.github.io/tags/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91/"/>
     
   </entry>
   
