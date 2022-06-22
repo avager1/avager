@@ -244,6 +244,10 @@ mark {
 .bg-color {
     background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
 }
+/* .bg-color {
+    background-image: linear-gradient(to right, #33ffff 0%, #3399ff 100%);
+} */
+
 
 .text-color {
     color: #0f9d58 !important;
