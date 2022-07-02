@@ -456,7 +456,7 @@
 <li>比较相邻的元素。如果前一个元素比后一个元素大，就交换这两个元素的位置。</li>
 <li>对每一对相邻元素做同样的工作，从开始第一对元素到结尾的最后一对元素。最终最后位置的元素就是最大<br>值。</li>
 </ol>
-<p><img src="/assets%5C1656750105070.png" alt="1656750105070"></p>
+<p><img src="/assets/1656750105070.png" alt="1656750105070"></p>
 <h3 id="代码实现："><a href="#代码实现：" class="headerlink" title="代码实现："></a>代码实现：</h3><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Bubbling_sort</span> <span class="token punctuation">{</span>	
 	<span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
 		<span class="token comment">// TODO Auto-generated method stub		</span>
@@ -489,7 +489,7 @@
 <hr>
 <h2 id="选择排序"><a href="#选择排序" class="headerlink" title="选择排序"></a>选择排序</h2><p>选择排序是一种更加简单直观的排序方法。</p>
 <h3 id="排序原理：-1"><a href="#排序原理：-1" class="headerlink" title="排序原理："></a>排序原理：</h3><p>1.每一次遍历的过程中，都假定第一个索引处的元素是最小值，和其他索引处的值依次进行比较，如果当前索引处<br>的值大于其他某个索引处的值，则假定其他某个索引出的值为最小值，最后可以找到最小值所在的索引<br>2.交换第一个索引处和最小值所在的索引处的值</p>
-<p><img src="/assets%5C1656750133462.png" alt="1656750133462"></p>
+<p><img src="/assets/1656750133462.png" alt="1656750133462"></p>
 <h3 id="实现代码："><a href="#实现代码：" class="headerlink" title="实现代码："></a>实现代码：</h3><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Select_sort</span> <span class="token punctuation">{</span>
 
 	<span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
@@ -526,9 +526,9 @@
 <hr>
 <h2 id="插入排序"><a href="#插入排序" class="headerlink" title="插入排序"></a>插入排序</h2><p>插入排序（Insertion sort）是一种简单直观且稳定的排序算法。</p>
 <p>插入排序的工作方式非常像人们排序一手扑克牌一样。开始时，我们的左手为空并且桌子上的牌面朝下。然后，我<br>们每次从桌子上拿走一张牌并将它插入左手中正确的位置。为了找到一张牌的正确位置，我们从右到左将它与已在<br>手中的每张牌进行比较，如下图所示：</p>
-<p><img src="/assets%5C1656750149538.png" alt="1656750149538"></p>
+<p><img src="/assets/1656750149538.png" alt="1656750149538"></p>
 <h3 id="排序原理：-2"><a href="#排序原理：-2" class="headerlink" title="排序原理："></a>排序原理：</h3><p>1.把所有的元素分为两组，已经排序的和未排序的；<br>2.找到未排序的组中的第一个元素，向已经排序的组中进行插入；<br>3.倒叙遍历已经排序的元素，依次和待插入的元素进行比较，直到找到一个元素小于等于待插入元素，那么就把待<br>插入元素放到这个位置，其他的元素向后移动一位；</p>
-<p><img src="/assets%5C1656750162701.png" alt="1656750162701"></p>
+<p><img src="/assets/1656750162701.png" alt="1656750162701"></p>
 <h3 id="代码实现：-1"><a href="#代码实现：-1" class="headerlink" title="代码实现："></a>代码实现：</h3><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Insert_sort</span> <span class="token punctuation">{</span>
 	<span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
 		<span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> arr1 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token punctuation">{</span> <span class="token number">4</span><span class="token punctuation">,</span><span class="token number">6</span><span class="token punctuation">,</span><span class="token number">8</span><span class="token punctuation">,</span><span class="token number">7</span><span class="token punctuation">,</span><span class="token number">9</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">10</span><span class="token punctuation">,</span><span class="token number">1</span> <span class="token punctuation">}</span><span class="token punctuation">;</span>	
