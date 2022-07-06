@@ -376,7 +376,7 @@ header .side-nav .social-link {
     position: relative;
     top: 10vh;
     text-align: center;
-    float: right;
+    
 }
 
 .cover-btns a {
@@ -390,6 +390,7 @@ header .side-nav .social-link {
     background-color: transparent;
     border-radius: 30px;
     box-shadow: none;
+    /* text-align: center; */
 }
 
 .cover-btns a:hover {
