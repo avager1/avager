@@ -481,29 +481,29 @@
 
 <p>上面代码 <code>h1</code> 标签内容是展示在页面上，而 Java 的输出语句是输出在 idea 的控制台。</p>
 <p>那么，JSP 能做什么呢？现在我们只用 <code>servlet</code> 实现功能，看存在什么问题。如下图所示，当我们登陆成功后，需要在页面上展示用户名</p>
-<img src="assets/image-20210818101320935.png" alt="image-20210818101320935" style="zoom:70%;"> 
+<img src="https://avager.club/assets/image-20210818101320935.png" alt="image-20210818101320935" style="zoom:70%;"> 
 
 <p>上图的用户名是动态展示，也就是谁登陆就展示谁的用户名。只用 <code>servlet</code> 如何实现呢？在今天的资料里已经提供好了一个 <code>LoginServlet</code> ，该 <code>servlet</code> 就是实现这个功能的，现将资料中的 <code>LoginServlet.java</code> 拷贝到 <code>request-demo</code> 项目中来演示。接下来启动服务器并访问登陆页面</p>
-<img src="assets/image-20210818102205544.png" alt="image-20210818102205544" style="zoom:80%;">
+<img src="https://avager.club/assets/image-20210818102205544.png" alt="image-20210818102205544" style="zoom:80%;">
 
 <p>输入了 <code>zhangsan</code> 用户的登陆信息后点击 <code>登陆</code> 按钮，就能看到如下图效果</p>
 <p><img src="/assets/image-20210818102313898.png" alt="image-20210818102313898"></p>
 <p>当然如果是 <code>lisi</code> 登陆的，在该页面展示的就是 <code>lisi,欢迎您</code>，动态的展示效果就实现了。那么 <code>LoginServlet</code> 到底是如何实现的，我们看看它里面的内容</p>
-<img src="assets/image-20210818102506754.png" alt="image-20210818102506754" style="zoom:70%;">
+<img src="https://avager.club/assets/image-20210818102506754.png" alt="image-20210818102506754" style="zoom:70%;">
 
 <p>上面的代码有大量使用到 <code>writer</code> 对象向页面写标签内容，这样我们的代码就显得很麻烦；将来如果展示的效果出现了问题，排错也显得有点力不从心。而 JSP 是如何解决这个问题的呢？在资料中也提供了一个 <code>login.jsp</code> 页面，该页面也能实现该功能，现将该页面拷贝到项目的 <code>webapp</code>下，需要修改 <code>login.html</code> 中表单数据提交的路径为下图</p>
-<img src="assets/image-20210818103127245.png" alt="image-20210818103127245" style="zoom:80%;">
+<img src="https://avager.club/assets/image-20210818103127245.png" alt="image-20210818103127245" style="zoom:80%;">
 
 
 
 <p>重新启动服务器并进行测试，发现也可以实现同样的功能。那么 <code>login.jsp</code> 又是如何实现的呢？那我们来看看 <code>login.jsp</code> 的代码</p>
-<img src="assets/image-20210818103352432.png" alt="image-20210818103352432" style="zoom:70%;">
+<img src="https://avager.club/assets/image-20210818103352432.png" alt="image-20210818103352432" style="zoom:70%;">
 
 <p>上面代码可以看到里面基本都是 <code>HTML</code> 标签，而动态数据使用 Java 代码进行展示；这样操作看起来要比用 <code>servlet</code> 实现要舒服很多。</p>
 <p>JSP 作用：简化开发，避免了在Servlet中直接输出HTML标签。</p>
 <h2 id="2，JSP-快速入门"><a href="#2，JSP-快速入门" class="headerlink" title="2，JSP 快速入门"></a>2，JSP 快速入门</h2><p>接下来我们做一个简单的快速入门代码。</p>
 <h3 id="2-1-搭建环境"><a href="#2-1-搭建环境" class="headerlink" title="2.1  搭建环境"></a>2.1  搭建环境</h3><p>创建一个maven的 web 项目，项目结构如下：</p>
-<img src="assets/image-20210818104316457.png" alt="image-20210818104316457" style="zoom:80%;">
+<img src="https://avager.club/assets/image-20210818104316457.png" alt="image-20210818104316457" style="zoom:80%;">
 
 <p><code>pom.xml</code> 文件内容如下：</p>
 <pre class="line-numbers language-markup" data-language="markup"><code class="language-markup"><span class="token prolog">&lt;?xml version="1.0" encoding="UTF-8"?&gt;</span>
@@ -552,7 +552,7 @@
 
 <p>该依赖的 <code>scope</code> 必须设置为 <code>provided</code>，因为 tomcat 中有这个jar包了，所以在打包时我们是不希望将该依赖打进到我们工程的war包中。</p>
 <h3 id="2-3-创建-jsp-页面"><a href="#2-3-创建-jsp-页面" class="headerlink" title="2.3  创建 jsp 页面"></a>2.3  创建 jsp 页面</h3><p>在项目的 <code>webapp</code> 下创建jsp页面</p>
-<img src="assets/image-20210818105519970.png" alt="image-20210818105519970" style="zoom:70%;">
+<img src="https://avager.club/assets/image-20210818105519970.png" alt="image-20210818105519970" style="zoom:70%;">
 
 <p>通过上面方式创建一个名为 <code>hello.jsp</code> 的页面。</p>
 <h3 id="2-4-编写代码"><a href="#2-4-编写代码" class="headerlink" title="2.4  编写代码"></a>2.4  编写代码</h3><p>在 <code>hello.jsp</code> 页面中书写 <code>HTML</code> 标签和 <code>Java</code> 代码，如下</p>
@@ -571,12 +571,12 @@
 &lt;/html&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <h3 id="2-5-测试"><a href="#2-5-测试" class="headerlink" title="2.5  测试"></a>2.5  测试</h3><p>启动服务器并在浏览器地址栏输入 <code>http://localhost:8080/jsp-demo/hello.jsp</code>，我们可以在页面上看到如下内容</p>
-<img src="assets/image-20210818110122438.png" alt="image-20210818110122438" style="zoom:70%;">
+<img src="https://avager.club/assets/image-20210818110122438.png" alt="image-20210818110122438" style="zoom:70%;">
 
 <p>同时也可以看到在 <code>idea</code> 的控制台看到输出的 <code>hello,jsp~</code> 内容。</p>
 <h2 id="3，JSP-原理"><a href="#3，JSP-原理" class="headerlink" title="3，JSP 原理"></a>3，JSP 原理</h2><p>我们之前说 JSP 就是一个页面，那么在 JSP 中写 <code>html</code> 标签，我们能理解，但是为什么还可以写 <code>Java</code> 代码呢？</p>
 <p>因为 ==JSP 本质上就是一个 Servlet。==接下来我们聊聊访问jsp时的流程</p>
-<img src="assets/image-20210818111039350.png" alt="image-20210818111039350" style="zoom:70%;">
+<img src="https://avager.club/assets/image-20210818111039350.png" alt="image-20210818111039350" style="zoom:70%;">
 
 <ol>
 <li>浏览器第一次访问 <code>hello.jsp</code> 页面</li>
@@ -585,18 +585,18 @@
 <li><code>tomcat</code> 会执行该字节码文件，向外提供服务</li>
 </ol>
 <p>我们可以到项目所在磁盘目录下找 <code>target\tomcat\work\Tomcat\localhost\jsp-demo\org\apache\jsp</code> 目录，而这个目录下就能看到转换后的 <code>servlet</code></p>
-<img src="assets/image-20210818112613589.png" alt="image-20210818112613589" style="zoom:80%;">
+<img src="https://avager.club/assets/image-20210818112613589.png" alt="image-20210818112613589" style="zoom:80%;">
 
 <p>打开 <code>hello_jsp.java</code> 文件，来查看里面的代码</p>
-<img src="assets/image-20210818112724462.png" alt="image-20210818112724462" style="zoom:80%;">
+<img src="https://avager.club/assets/image-20210818112724462.png" alt="image-20210818112724462" style="zoom:80%;">
 
 <p>由上面的类的继承关系可以看到继承了名为 <code>HttpJspBase</code> 这个类，那我们在看该类的继承关系。到资料中的找如下目录： <code>资料\tomcat源码\apache-tomcat-8.5.68-src\java\org\apache\jasper\runtime</code> ，该目录下就有 <code>HttpJspBase</code> 类，查看该类的继承关系</p>
-<img src="assets/image-20210818113118802.png" alt="image-20210818113118802" style="zoom:80%;">
+<img src="https://avager.club/assets/image-20210818113118802.png" alt="image-20210818113118802" style="zoom:80%;">
 
 <p>可以看到该类继承了 <code>HttpServlet</code> ；那么 <code>hello_jsp</code> 这个类就间接的继承了 <code>HttpServlet</code> ，也就说明 <code>hello_jsp</code> 是一个 <code>servlet</code>。</p>
 <p>继续阅读 <code>hello_jsp</code> 类的代码，可以看到有一个名为 <code>_jspService()</code> 的方法，该方法就是每次访问 <code>jsp</code> 时自动执行的方法，和 <code>servlet</code> 中的 <code>service</code> 方法一样 。</p>
 <p>而在 <code>_jspService()</code> 方法中可以看到往浏览器写标签的代码：</p>
-<img src="assets/image-20210818114008998.png" alt="image-20210818114008998" style="zoom:80%;">
+<img src="https://avager.club/assets/image-20210818114008998.png" alt="image-20210818114008998" style="zoom:80%;">
 
 <p>以前我们自己写 <code>servlet</code> 时，这部分代码是由我们自己来写，现在有了 <code>jsp</code> 后，由tomcat完成这部分功能。</p>
 <h2 id="4，JSP-脚本"><a href="#4，JSP-脚本" class="headerlink" title="4，JSP 脚本"></a>4，JSP 脚本</h2><p>JSP脚本用于在 JSP页面内定义 Java代码。在之前的入门案例中我们就在 JSP 页面定义的 Java 代码就是 JSP 脚本。</p>
@@ -614,14 +614,14 @@
 %&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 
 <p>通过浏览器访问 <code>hello.jsp</code> 后，查看转换的 <code>hello_jsp.java</code> 文件，i 变量定义在了 <code>_jspService()</code> 方法中</p>
-<img src="assets/image-20210818123606231.png" alt="image-20210818123606231" style="zoom:80%;">
+<img src="https://avager.club/assets/image-20210818123606231.png" alt="image-20210818123606231" style="zoom:80%;">
 
 <p>在 <code>hello.jsp</code> 中书写</p>
 <pre class="line-numbers language-jsp" data-language="jsp"><code class="language-jsp">&lt;%="hello"%&gt;
 &lt;%=i%&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
 <p>通过浏览器访问 <code>hello.jsp</code> 后，查看转换的 <code>hello_jsp.java</code> 文件，该脚本的内容被放在了 <code>out.print()</code> 中，作为参数</p>
-<img src="assets/image-20210818123820571.png" alt="image-20210818123820571" style="zoom:80%;">
+<img src="https://avager.club/assets/image-20210818123820571.png" alt="image-20210818123820571" style="zoom:80%;">
 
 <p>在 <code>hello.jsp</code> 中书写</p>
 <pre class="line-numbers language-jsp" data-language="jsp"><code class="language-jsp">&lt;%!
@@ -630,10 +630,10 @@
 %&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 
 <p>通过浏览器访问 <code>hello.jsp</code> 后，查看转换的 <code>hello_jsp.java</code> 文件，该脚本的内容被放在了成员位置</p>
-<img src="assets/image-20210818123946272.png" alt="image-20210818123946272" style="zoom:80%;">
+<img src="https://avager.club/assets/image-20210818123946272.png" alt="image-20210818123946272" style="zoom:80%;">
 
 <h3 id="4-2-案例"><a href="#4-2-案例" class="headerlink" title="4.2  案例"></a>4.2  案例</h3><h4 id="4-2-1-需求"><a href="#4-2-1-需求" class="headerlink" title="4.2.1  需求"></a>4.2.1  需求</h4><p>使用JSP脚本展示品牌数据</p>
-<img src="assets/image-20210818125203390.png" alt="image-20210818125203390" style="zoom:80%;">
+<img src="https://avager.club/assets/image-20210818125203390.png" alt="image-20210818125203390" style="zoom:80%;">
 
 <p>说明：</p>
 <ul>
@@ -871,7 +871,7 @@
 &lt;/html&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <h4 id="4-2-4-测试"><a href="#4-2-4-测试" class="headerlink" title="4.2.4  测试"></a>4.2.4  测试</h4><p>在浏览器地址栏输入 <code>http://localhost:8080/jsp-demo/brand.jsp</code> ，页面展示效果如下</p>
-<img src="assets/image-20210818145450748.png" alt="image-20210818145450748" style="zoom:70%;">
+<img src="https://avager.club/assets/image-20210818145450748.png" alt="image-20210818145450748" style="zoom:70%;">
 
 <h3 id="4-3-JSP-缺点"><a href="#4-3-JSP-缺点" class="headerlink" title="4.3  JSP 缺点"></a>4.3  JSP 缺点</h3><p>通过上面的案例，我们可以看到 JSP 的很多缺点。</p>
 <p>由于 JSP页面内，既可以定义 HTML 标签，又可以定义 Java代码，造成了以下问题：</p>
@@ -893,7 +893,7 @@
 </li>
 </ul>
 <p>由于上述的问题， ==JSP 已逐渐退出历史舞台，==以后开发更多的是使用 ==HTML +  Ajax== 来替代。Ajax 是我们后续会重点学习的技术。有个这个技术后，前端工程师负责前端页面开发，而后端工程师只负责前端代码开发。下来对技术的发展进行简单的说明</p>
-<img src="assets/image-20210818150346332.png" alt="image-20210818150346332" style="zoom:80%;">
+<img src="https://avager.club/assets/image-20210818150346332.png" alt="image-20210818150346332" style="zoom:80%;">
 
 <ol>
 <li><p>第一阶段：使用 <code>servlet</code> 即实现逻辑代码编写，也对页面进行拼接。这种模式我们之前也接触过</p>
@@ -901,7 +901,7 @@
 <li><p>第二阶段：随着技术的发展，出现了 <code>JSP</code> ，人们发现 <code>JSP</code> 使用起来比 <code>Servlet</code> 方便很多，但是还是要在 <code>JSP</code> 中嵌套 <code>Java</code> 代码，也不利于后期的维护</p>
 </li>
 <li><p>第三阶段：使用 <code>Servlet</code> 进行逻辑代码开发，而使用 <code>JSP</code> 进行数据展示</p>
-<img src="assets/image-20210818151232955.png" alt="image-20210818151232955" style="zoom:67%;">
+<img src="https://avager.club/assets/image-20210818151232955.png" alt="image-20210818151232955" style="zoom:67%;">
 </li>
 <li><p>第四阶段：使用 <code>servlet</code> 进行后端逻辑代码开发，而使用 <code>HTML</code> 进行数据展示。而这里面就存在问题，<code>HTML</code> 是静态页面，怎么进行动态数据展示呢？这就是 <code>ajax</code> 的作用了。</p>
 </li>
@@ -956,7 +956,7 @@
 &lt;/html&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 </li>
 <li><p>在浏览器的地址栏输入 <code>http://localhost:8080/jsp-demo/demo1</code> ，页面效果如下：</p>
-<img src="assets/image-20210818152536484.png" alt="image-20210818152536484" style="zoom:80%;"></li>
+<img src="https://avager.club/assets/image-20210818152536484.png" alt="image-20210818152536484" style="zoom:80%;"></li>
 </ul>
 <h3 id="5-3-域对象"><a href="#5-3-域对象" class="headerlink" title="5.3  域对象"></a>5.3  域对象</h3><p>JavaWeb中有四大域对象，分别是：</p>
 <ul>
@@ -966,7 +966,7 @@
 <li>application：当前应用有效</li>
 </ul>
 <p>el 表达式获取数据，会依次从这4个域中寻找，直到找到为止。而这四个域对象的作用范围如下图所示</p>
-<img src="assets/image-20210818152857407.png" alt="image-20210818152857407" style="zoom:60%;">
+<img src="https://avager.club/assets/image-20210818152857407.png" alt="image-20210818152857407" style="zoom:60%;">
 
 <p>例如： ${brands}，el 表达式获取数据，会先从page域对象中获取数据，如果没有再到 requet 域对象中获取数据，如果再没有再到 session 域对象中获取，如果还没有才会到 application 中获取数据。</p>
 <h2 id="6，JSTL标签"><a href="#6，JSTL标签" class="headerlink" title="6，JSTL标签"></a>6，JSTL标签</h2><h3 id="6-1-概述"><a href="#6-1-概述" class="headerlink" title="6.1  概述"></a>6.1  概述</h3><p>JSP标准标签库(Jsp Standarded Tag Library) ，使用标签取代JSP页面上的Java代码。如下代码就是JSTL标签</p>
@@ -979,7 +979,7 @@
 
 <p>上面代码看起来是不是比 JSP 中嵌套 Java 代码看起来舒服好了。而且前端工程师对标签是特别敏感的，他们看到这段代码是能看懂的。</p>
 <p>JSTL 提供了很多标签，如下图</p>
-<img src="assets/image-20210818153646575.png" alt="image-20210818153646575" style="zoom:80%;">
+<img src="https://avager.club/assets/image-20210818153646575.png" alt="image-20210818153646575" style="zoom:80%;">
 
 <p>我们只对两个最常用的标签进行讲解，<code>&lt;c:forEach&gt;</code> 标签和 <code>&lt;c:if&gt;</code> 标签。</p>
 <p>JSTL 使用也是比较简单的，分为如下步骤：</p>
@@ -1154,7 +1154,7 @@
 <li><p>C：Controller，控制器，处理请求，调用模型和视图</p>
 </li>
 </ul>
-<img src="assets/image-20210818163348642.png" alt="image-20210818163348642" style="zoom:70%;">
+<img src="https://avager.club/assets/image-20210818163348642.png" alt="image-20210818163348642" style="zoom:70%;">
 
 <p>控制器（serlvlet）用来接收浏览器发送过来的请求，控制器调用模型（JavaBean）来获取数据，比如从数据库查询数据；控制器获取到数据后再交由视图（JSP）进行数据展示。</p>
 <p><strong>MVC 好处：</strong></p>
@@ -1167,7 +1167,7 @@
 </li>
 </ul>
 <h3 id="7-2-三层架构"><a href="#7-2-三层架构" class="headerlink" title="7.2  三层架构"></a>7.2  三层架构</h3><p>三层架构是将我们的项目分成了三个层面，分别是 <code>表现层</code>、<code>业务逻辑层</code>、<code>数据访问层</code>。</p>
-<img src="assets/image-20210818164301154.png" alt="image-20210818164301154" style="zoom:60%;">
+<img src="https://avager.club/assets/image-20210818164301154.png" alt="image-20210818164301154" style="zoom:60%;">
 
 <ul>
 <li>数据访问层：对数据库的CRUD基本操作</li>
@@ -1182,15 +1182,15 @@
 <li>数据访问层：<code>com.itheima.dao</code> 或者 <code>com.itheima.mapper</code></li>
 </ul>
 <p>后期我们还会学习一些框架，不同的框架是对不同层进行封装的</p>
-<img src="assets/image-20210818165439826.png" alt="image-20210818165439826" style="zoom:60%;">
+<img src="https://avager.club/assets/image-20210818165439826.png" alt="image-20210818165439826" style="zoom:60%;">
 
 <h3 id="7-3-MVC-和-三层架构"><a href="#7-3-MVC-和-三层架构" class="headerlink" title="7.3  MVC 和 三层架构"></a>7.3  MVC 和 三层架构</h3><p>通过 MVC 和 三层架构 的学习，有些人肯定混淆了。那他们有什么区别和联系？</p>
-<img src="assets/image-20210818165808589.png" alt="image-20210818165808589" style="zoom:60%;">
+<img src="https://avager.club/assets/image-20210818165808589.png" alt="image-20210818165808589" style="zoom:60%;">
 
 <p>如上图上半部分是 MVC 模式，上图下半部分是三层架构。 <code>MVC 模式</code> 中的 C（控制器）和 V（视图）就是 <code>三层架构</code> 中的表现层，而 <code>MVC 模式</code> 中的 M（模型）就是 <code>三层架构</code> 中的 业务逻辑层 和 数据访问层。</p>
 <p>可以将 <code>MVC 模式</code> 理解成是一个大的概念，而 <code>三层架构</code> 是对 <code>MVC 模式</code> 实现架构的思想。 那么我们以后按照要求将不同层的代码写在不同的包下，每一层里功能职责做到单一，将来如果将表现层的技术换掉，而业务逻辑层和数据访问层的代码不需要发生变化。</p>
 <h2 id="8，案例"><a href="#8，案例" class="headerlink" title="8，案例"></a>8，案例</h2><p><strong>需求：完成品牌数据的增删改查操作</strong></p>
-<img src="assets/image-20210818171702401.png" alt="image-20210818171702401" style="zoom:70%;">
+<img src="https://avager.club/assets/image-20210818171702401.png" alt="image-20210818171702401" style="zoom:70%;">
 
 <p>这个功能我们之前一直在做，而这个案例是将今天学习的所有的内容（包含 MVC模式 和 三层架构）进行应用，并将整个流程贯穿起来。</p>
 <h3 id="8-1-环境准备"><a href="#8-1-环境准备" class="headerlink" title="8.1  环境准备"></a>8.1  环境准备</h3><p>环境准备工作，我们分以下步骤实现：</p>
@@ -1293,7 +1293,7 @@
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>project</span><span class="token punctuation">&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <h4 id="8-1-2-创建包"><a href="#8-1-2-创建包" class="headerlink" title="8.1.2  创建包"></a>8.1.2  创建包</h4><p>创建不同的包结构，用来存储不同的类。包结构如下</p>
-<img src="assets/image-20210818173155335.png" alt="image-20210818173155335" style="zoom:80%;">
+<img src="https://avager.club/assets/image-20210818173155335.png" alt="image-20210818173155335" style="zoom:80%;">
 
 <h4 id="8-1-3-创建表"><a href="#8-1-3-创建表" class="headerlink" title="8.1.3  创建表"></a>8.1.3  创建表</h4><pre class="line-numbers language-sql" data-language="sql"><code class="language-sql"><span class="token comment">-- 删除tb_brand表</span>
 <span class="token keyword">drop</span> <span class="token keyword">table</span> <span class="token keyword">if</span> <span class="token keyword">exists</span> tb_brand<span class="token punctuation">;</span>
@@ -1456,7 +1456,7 @@
 <h3 id="8-2-查询所有"><a href="#8-2-查询所有" class="headerlink" title="8.2  查询所有"></a>8.2  查询所有</h3><p><img src="/assets/image-20210818174441917.png" alt="image-20210818174441917"></p>
 <p>当我们点击 <code>index.html</code> 页面中的 <code>查询所有</code> 这个超链接时，就能查询到上图右半部分的数据。</p>
 <p>对于上述的功能，点击 <code>查询所有</code> 超链接是需要先请后端的 <code>servlet</code> ，由 <code>servlet</code> 跳转到对应的页面进行数据的动态展示。而整个流程如下图：</p>
-<img src="assets/image-20210818174800783.png" alt="image-20210818174800783" style="zoom:60%;">
+<img src="https://avager.club/assets/image-20210818174800783.png" alt="image-20210818174800783" style="zoom:60%;">
 
 <h4 id="8-2-1-编写BrandMapper"><a href="#8-2-1-编写BrandMapper" class="headerlink" title="8.2.1  编写BrandMapper"></a>8.2.1  编写BrandMapper</h4><p>在 <code>mapper</code> 包下创建创建 <code>BrandMapper</code> 接口，在接口中定义 <code>selectAll()</code> 方法</p>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">/**
@@ -1726,7 +1726,7 @@
 <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <h4 id="8-3-6-测试"><a href="#8-3-6-测试" class="headerlink" title="8.3.6  测试"></a>8.3.6  测试</h4><p> 点击 <code>brand.jsp</code> 页面的 <code>新增</code> 按钮，会跳转到 <code>addBrand.jsp</code>页面</p>
-<img src="assets/image-20210819220701121.png" alt="image-20210819220701121" style="zoom:70%;">
+<img src="https://avager.club/assets/image-20210819220701121.png" alt="image-20210819220701121" style="zoom:70%;">
 
 <p>点击 <code>提交</code> 按钮，就能看到如下页面，里面就包含我们刚添加的数据</p>
 <p><img src="/assets/image-20210819220738074.png" alt="image-20210819220738074"></p>
@@ -1737,7 +1737,7 @@
 <p>从上面的例子我们知道 <code>修改</code> 功能需要从两方面进行实现，数据回显和修改操作。</p>
 <h4 id="8-4-1-回显数据"><a href="#8-4-1-回显数据" class="headerlink" title="8.4.1  回显数据"></a>8.4.1  回显数据</h4><p><img src="/assets/image-20210819223830713.png" alt="image-20210819223830713"></p>
 <p>上图就是回显数据的效果。要实现这个效果，那当点击 <code>修改</code> 按钮时不能直接跳转到 <code>update.jsp</code> 页面，而是需要先带着当前行数据的 <code>id</code> 请求后端程序，后端程序根据 <code>id</code> 查询数据，将数据存储到域对象中跳转到 <code>update.jsp</code> 页面进行数据展示。整体流程如下</p>
-<img src="assets/image-20210819224243778.png" alt="image-20210819224243778" style="zoom:70%;">
+<img src="https://avager.club/assets/image-20210819224243778.png" alt="image-20210819224243778" style="zoom:70%;">
 
 <h5 id="8-4-1-1-编写BrandMapper方法"><a href="#8-4-1-1-编写BrandMapper方法" class="headerlink" title="8.4.1.1  编写BrandMapper方法"></a>8.4.1.1  编写BrandMapper方法</h5><p>在 <code>BrandMapper</code> 接口，在接口中定义 <code>selectById(int id)</code> 方法</p>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">/**
@@ -1858,7 +1858,7 @@
 <h4 id="8-4-2-修改数据"><a href="#8-4-2-修改数据" class="headerlink" title="8.4.2  修改数据"></a>8.4.2  修改数据</h4><p>做完回显数据后，接下来我们要做修改数据了，而下图是修改数据的效果：</p>
 <p><img src="/assets/image-20210819225948187.png" alt="image-20210819225948187"></p>
 <p>在修改页面进行数据修改，点击 <code>提交</code> 按钮，会将数据提交到后端程序，后端程序会对表中的数据进行修改操作，然后重新进行数据的查询操作。整体流程如下：</p>
-<img src="assets/image-20210819230242938.png" alt="image-20210819230242938" style="zoom:70%;">
+<img src="https://avager.club/assets/image-20210819230242938.png" alt="image-20210819230242938" style="zoom:70%;">
 
 <h5 id="8-4-2-1-编写BrandMapper方法"><a href="#8-4-2-1-编写BrandMapper方法" class="headerlink" title="8.4.2.1  编写BrandMapper方法"></a>8.4.2.1  编写BrandMapper方法</h5><p>在 <code>BrandMapper</code> 接口，在接口中定义 <code>update(Brand brand)</code> 方法</p>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">/**

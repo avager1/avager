@@ -534,7 +534,7 @@
 </li>
 <li><p>编写测试用例</p>
 <p>测试代码需要在 <code>test/java</code> 目录下创建包及测试用例。项目结构如下：</p>
-<img src="assets/image-20210729112907106.png" alt="image-20210729112907106" style="zoom:80%;">
+<img src="https://avager.club/assets/image-20210729112907106.png" alt="image-20210729112907106" style="zoom:80%;">
 </li>
 <li><p>安装 MyBatisX 插件</p>
 <ul>
@@ -548,14 +548,14 @@
 </li>
 <li><p>安装方式</p>
 <p>点击 <code>file</code> ，选择 <code>settings</code> ，就能看到如下图所示界面</p>
-<img src="assets/image-20210729113304743.png" alt="image-20210729113304743" style="zoom:80%;">
+<img src="https://avager.club/assets/image-20210729113304743.png" alt="image-20210729113304743" style="zoom:80%;">
 
 <blockquote>
 <p>注意：安装完毕后需要重启IDEA</p>
 </blockquote>
 </li>
 <li><p>插件效果</p>
-<img src="assets/image-20210729164450524.png" alt="image-20210729164450524" style="zoom:70%;">
+<img src="https://avager.club/assets/image-20210729164450524.png" alt="image-20210729164450524" style="zoom:70%;">
 
 <p>红色头绳的表示映射配置文件，蓝色头绳的表示mapper接口。在mapper接口点击红色头绳的小鸟图标会自动跳转到对应的映射配置文件，在映射配置文件中点击蓝色头绳的小鸟图标会自动跳转到对应的mapper接口。也可以在mapper接口中定义方法，自动生成映射配置文件中的 <code>statement</code> ，如图所示</p>
 <p><img src="/assets/image-20210729165337223.png" alt="image-20210729165337223"></p>
@@ -563,7 +563,7 @@
 </ul>
 </li>
 </ul>
-<h3 id="1-2-查询所有数据"><a href="#1-2-查询所有数据" class="headerlink" title="1.2  查询所有数据"></a>1.2  查询所有数据</h3><img src="assets/image-20210729165724838.png" alt="image-20210729165724838" style="zoom:80%;">
+<h3 id="1-2-查询所有数据"><a href="#1-2-查询所有数据" class="headerlink" title="1.2  查询所有数据"></a>1.2  查询所有数据</h3><img src="https://avager.club/assets/image-20210729165724838.png" alt="image-20210729165724838" style="zoom:80%;">
 
 <p>如上图所示就页面上展示的数据，而这些数据需要从数据库进行查询。接下来我们就来讲查询所有数据功能，而实现该功能我们分以下步骤进行实现：</p>
 <ul>
@@ -571,11 +571,11 @@
 <ul>
 <li><p>参数：无</p>
 <p>查询所有数据功能是不需要根据任何条件进行查询的，所以此方法不需要参数。</p>
-<img src="assets/image-20210729171208737.png" alt="image-20210729171208737" style="zoom:80%;">
+<img src="https://avager.club/assets/image-20210729171208737.png" alt="image-20210729171208737" style="zoom:80%;">
 </li>
 <li><p>结果：List<brand></brand></p>
 <p>我们会将查询出来的每一条数据封装成一个 <code>Brand</code> 对象，而多条数据封装多个 <code>Brand</code> 对象，需要将这些对象封装到List集合中返回。</p>
-<img src="assets/image-20210729171146911.png" alt="image-20210729171146911" style="zoom:80%;">
+<img src="https://avager.club/assets/image-20210729171146911.png" alt="image-20210729171146911" style="zoom:80%;">
 </li>
 <li><p>执行方法、测试</p>
 </li>
@@ -639,7 +639,7 @@
 <li>使用resultMap定义字段和属性的映射关系</li>
 </ul>
 <h4 id="1-2-4-起别名解决上述问题"><a href="#1-2-4-起别名解决上述问题" class="headerlink" title="1.2.4  起别名解决上述问题"></a>1.2.4  起别名解决上述问题</h4><p>从上面结果可以看到 <code>brandName</code> 和 <code>companyName</code> 这两个属性的数据没有封装成功，查询 实体类 和 表中的字段 发现，在实体类中属性名是 <code>brandName</code> 和 <code>companyName</code> ，而表中的字段名为 <code>brand_name</code> 和 <code>company_name</code>，如下图所示 。那么我们只需要保持这两部分的名称一致这个问题就迎刃而解。</p>
-<img src="assets/image-20210729173210433.png" alt="image-20210729173210433" style="zoom:80%;">
+<img src="https://avager.club/assets/image-20210729173210433.png" alt="image-20210729173210433" style="zoom:80%;">
 
 <p>我们可以在写sql语句时给这两个字段起别名，将别名定义成和属性名一致即可。</p>
 <pre class="line-numbers language-markup" data-language="markup"><code class="language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>select</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>selectAll<span class="token punctuation">"</span></span> <span class="token attr-name">resultType</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>brand<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
@@ -724,13 +724,13 @@
 
 
 
-<h3 id="1-3-查询详情"><a href="#1-3-查询详情" class="headerlink" title="1.3  查询详情"></a>1.3  查询详情</h3><img src="assets/image-20210729180118287.png" alt="image-20210729180118287" style="zoom:80%;">
+<h3 id="1-3-查询详情"><a href="#1-3-查询详情" class="headerlink" title="1.3  查询详情"></a>1.3  查询详情</h3><img src="https://avager.club/assets/image-20210729180118287.png" alt="image-20210729180118287" style="zoom:80%;">
 
 <p>有些数据的属性比较多，在页面表格中无法全部实现，而只会显示部分，而其他属性数据的查询可以通过 <code>查看详情</code> 来进行查询，如上图所示。</p>
 <p>查看详情功能实现步骤：</p>
 <ul>
 <li><p>编写接口方法：Mapper接口</p>
-<img src="assets/image-20210729180604529.png" alt="image-20210729180604529" style="zoom:80%;">
+<img src="https://avager.club/assets/image-20210729180604529.png" alt="image-20210729180604529" style="zoom:80%;">
 
 <ul>
 <li><p>参数：id</p>
@@ -742,7 +742,7 @@
 </ul>
 </li>
 <li><p>编写SQL语句：SQL映射文件</p>
-<img src="assets/image-20210729180709318.png" alt="image-20210729180709318" style="zoom:80%;">
+<img src="https://avager.club/assets/image-20210729180709318.png" alt="image-20210729180709318" style="zoom:80%;">
 </li>
 <li><p>执行方法、进行测试</p>
 </li>
@@ -788,7 +788,7 @@
 <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <p>执行测试方法结果如下：</p>
-<img src="assets/image-20210729182223137.png" alt="image-20210729182223137" style="zoom:70%;">
+<img src="https://avager.club/assets/image-20210729182223137.png" alt="image-20210729182223137" style="zoom:70%;">
 
 <h4 id="1-3-4-参数占位符"><a href="#1-3-4-参数占位符" class="headerlink" title="1.3.4  参数占位符"></a>1.3.4  参数占位符</h4><p>查询到的结果很好理解就是id为1的这行数据。而这里我们需要看控制台显示的SQL语句，能看到使用？进行占位。说明我们在映射配置文件中的写的 <code>#{id}</code> 最终会被？进行占位。接下来我们就聊聊映射配置文件中的参数占位符。</p>
 <p>mybatis提供了两种参数占位符：</p>
@@ -802,7 +802,7 @@
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>select</span><span class="token punctuation">&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 
 <p>重新运行查看结果如下：</p>
-<img src="assets/image-20210729184156019.png" alt="image-20210729184156019" style="zoom:70%;"></li>
+<img src="https://avager.club/assets/image-20210729184156019.png" alt="image-20210729184156019" style="zoom:70%;"></li>
 </ul>
 <blockquote>
 <p>==注意：==从上面两个例子可以看出，以后开发我们使用 #{} 参数占位符。</p>
@@ -814,17 +814,17 @@
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>select</span><span class="token punctuation">&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 
 <h4 id="1-3-6-SQL语句中特殊字段处理"><a href="#1-3-6-SQL语句中特殊字段处理" class="headerlink" title="1.3.6  SQL语句中特殊字段处理"></a>1.3.6  SQL语句中特殊字段处理</h4><p>以后肯定会在SQL语句中写一下特殊字符，比如某一个字段大于某个值，如下图</p>
-<img src="assets/image-20210729184756094.png" alt="image-20210729184756094" style="zoom:80%;">
+<img src="https://avager.club/assets/image-20210729184756094.png" alt="image-20210729184756094" style="zoom:80%;">
 
 <p>可以看出报错了，因为映射配置文件是xml类型的问题，而 &gt; &lt; 等这些字符在xml中有特殊含义，所以此时我们需要将这些符号进行转义，可以使用以下两种方式进行转义</p>
 <ul>
 <li><p>转义字符</p>
 <p>下图的 <code>&amp;lt;</code> 就是 <code>&lt;</code> 的转义字符。</p>
-<img src="assets/image-20210729185128686.png" alt="image-20210729185128686" style="zoom:60%;">
+<img src="https://avager.club/assets/image-20210729185128686.png" alt="image-20210729185128686" style="zoom:60%;">
 </li>
 <li><!--[CDATA[内容]]-->
 
-<img src="assets/image-20210729185030318.png" alt="image-20210729185030318" style="zoom:60%;"></li>
+<img src="https://avager.club/assets/image-20210729185030318.png" alt="image-20210729185030318" style="zoom:60%;"></li>
 </ul>
 <h3 id="1-4-多条件查询"><a href="#1-4-多条件查询" class="headerlink" title="1.4  多条件查询"></a>1.4  多条件查询</h3><p><img src="/assets/image-20210729203804276.png" alt="image-20210729203804276"></p>
 <p>我们经常会遇到如上图所示的多条件查询，将多条件查询的结果展示在下方的数据列表中。而我们做这个功能需要分析最终的SQL语句应该是什么样，思考两个问题</p>
@@ -833,7 +833,7 @@
 <li>如何连接</li>
 </ul>
 <p>条件字段 <code>企业名称</code>  和 <code>品牌名称</code> 需要进行模糊查询，所以条件应该是：</p>
-<img src="assets/image-20210729204458815.png" alt="image-20210729204458815" style="zoom:70%;">
+<img src="https://avager.club/assets/image-20210729204458815.png" alt="image-20210729204458815" style="zoom:70%;">
 
 <p>简单的分析后，我们来看功能实现的步骤：</p>
 <ul>
@@ -1002,7 +1002,7 @@ map<span class="token punctuation">.</span><span class="token function">put</spa
 </blockquote>
 </li>
 </ul>
-<h3 id="1-5-单个条件（动态SQL）"><a href="#1-5-单个条件（动态SQL）" class="headerlink" title="1.5 单个条件（动态SQL）"></a>1.5 单个条件（动态SQL）</h3><img src="assets/image-20210729213613029.png" alt="image-20210729213613029" style="zoom:80%;">
+<h3 id="1-5-单个条件（动态SQL）"><a href="#1-5-单个条件（动态SQL）" class="headerlink" title="1.5 单个条件（动态SQL）"></a>1.5 单个条件（动态SQL）</h3><img src="https://avager.club/assets/image-20210729213613029.png" alt="image-20210729213613029" style="zoom:80%;">
 
 <p>如上图所示，在查询时只能选择 <code>品牌名称</code>、<code>当前状态</code>、<code>企业名称</code> 这三个条件中的一个，但是用户到底选择哪儿一个，我们并不能确定。这种就属于单个条件的动态SQL语句。 </p>
 <p>这种需求需要使用到  <code>choose（when，otherwise）标签</code>  实现，  而 <code>choose</code> 标签类似于Java 中的switch语句。</p>
@@ -1069,19 +1069,19 @@ map<span class="token punctuation">.</span><span class="token function">put</spa
 <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <p>执行测试方法结果如下：</p>
-<img src="assets/image-20210729214548756.png" alt="image-20210729214548756" style="zoom:70%;">
+<img src="https://avager.club/assets/image-20210729214548756.png" alt="image-20210729214548756" style="zoom:70%;">
 
-<h3 id="1-6-添加数据"><a href="#1-6-添加数据" class="headerlink" title="1.6  添加数据"></a>1.6  添加数据</h3><img src="assets/image-20210729214917317.png" alt="image-20210729214917317" style="zoom:70%;">
+<h3 id="1-6-添加数据"><a href="#1-6-添加数据" class="headerlink" title="1.6  添加数据"></a>1.6  添加数据</h3><img src="https://avager.club/assets/image-20210729214917317.png" alt="image-20210729214917317" style="zoom:70%;">
 
 <p>如上图是我们平时在添加数据时展示的页面，而我们在该页面输入想要的数据后添加 <code>提交</code> 按钮，就会将这些数据添加到数据库中。接下来我们就来实现添加数据的操作。</p>
 <ul>
 <li><p>编写接口方法</p>
-<img src="assets/image-20210729215351651.png" alt="image-20210729215351651" style="zoom:80%;">
+<img src="https://avager.club/assets/image-20210729215351651.png" alt="image-20210729215351651" style="zoom:80%;">
 
 <p>参数：除了id之外的所有的数据。id对应的是表中主键值，而主键我们是 ==自动增长== 生成的。</p>
 </li>
 <li><p>编写SQL语句</p>
-<img src="assets/image-20210729215537167.png" alt="image-20210729215537167" style="zoom:80%;">
+<img src="https://avager.club/assets/image-20210729215537167.png" alt="image-20210729215537167" style="zoom:80%;">
 </li>
 <li><p>编写测试方法并执行</p>
 </li>
@@ -1138,15 +1138,15 @@ map<span class="token punctuation">.</span><span class="token function">put</spa
 <p><img src="/assets/image-20210729220348255.png" alt="image-20210729220348255"></p>
 <h4 id="1-6-4-添加-主键返回"><a href="#1-6-4-添加-主键返回" class="headerlink" title="1.6.4  添加-主键返回"></a>1.6.4  添加-主键返回</h4><p>在数据添加成功后，有时候需要获取插入数据库数据的主键（主键是自增长）。</p>
 <p>比如：添加订单和订单项，如下图就是京东上的订单</p>
-<img src="assets/image-20210729221207962.png" alt="image-20210729221207962" style="zoom:80%;">
+<img src="https://avager.club/assets/image-20210729221207962.png" alt="image-20210729221207962" style="zoom:80%;">
 
 <p>订单数据存储在订单表中，订单项存储在订单项表中。</p>
 <ul>
 <li><p>添加订单数据</p>
-<img src="assets/image-20210729221049462.png" alt="image-20210729221049462" style="zoom:80%;">
+<img src="https://avager.club/assets/image-20210729221049462.png" alt="image-20210729221049462" style="zoom:80%;">
 </li>
 <li><p>添加订单项数据，订单项中需要设置所属订单的id</p>
-<img src="assets/image-20210729221058898.png" alt="image-20210729221058898" style="zoom:80%;"></li>
+<img src="https://avager.club/assets/image-20210729221058898.png" alt="image-20210729221058898" style="zoom:80%;"></li>
 </ul>
 <p>明白了什么时候 <code>主键返回</code> 。接下来我们简单模拟一下，在添加完数据后打印id属性值，能打印出来说明已经获取到了。</p>
 <p>我们将上面添加品牌数据的案例中映射配置文件里 <code>statement</code> 进行修改，如下</p>
@@ -1162,7 +1162,7 @@ map<span class="token punctuation">.</span><span class="token function">put</spa
 <li>keyProperty  ：指定将获取到的主键值封装到哪儿个属性里</li>
 </ul>
 </blockquote>
-<h3 id="1-7-修改"><a href="#1-7-修改" class="headerlink" title="1.7  修改"></a>1.7  修改</h3><img src="assets/image-20210729222642700.png" alt="image-20210729222642700" style="zoom:80%;">
+<h3 id="1-7-修改"><a href="#1-7-修改" class="headerlink" title="1.7  修改"></a>1.7  修改</h3><img src="https://avager.club/assets/image-20210729222642700.png" alt="image-20210729222642700" style="zoom:80%;">
 
 <p>如图所示是修改页面，用户在该页面书写需要修改的数据，点击 <code>提交</code> 按钮，就会将数据库中对应的数据进行修改。注意一点，如果哪儿个输入框没有输入内容，我们是将表中数据对应字段值替换为空白还是保留字段之前的值？答案肯定是保留之前的数据。</p>
 <p>接下来我们就具体来实现</p>
@@ -1280,7 +1280,7 @@ map<span class="token punctuation">.</span><span class="token function">put</spa
 <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <p>运行过程只要没报错，直接到数据库查询数据是否还存在。</p>
-<h3 id="1-9-批量删除"><a href="#1-9-批量删除" class="headerlink" title="1.9  批量删除"></a>1.9  批量删除</h3><img src="assets/image-20210729225713894.png" alt="image-20210729225713894" style="zoom:70%;">
+<h3 id="1-9-批量删除"><a href="#1-9-批量删除" class="headerlink" title="1.9  批量删除"></a>1.9  批量删除</h3><img src="https://avager.club/assets/image-20210729225713894.png" alt="image-20210729225713894" style="zoom:70%;">
 
 
 
@@ -1411,7 +1411,7 @@ map<span class="token punctuation">.</span><span class="token function">put</spa
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>select</span><span class="token punctuation">&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 </li>
 <li><p>运行代码结果如下</p>
-<img src="assets/image-20210805230303461.png" alt="image-20210805230303461" style="zoom:80%;">
+<img src="https://avager.club/assets/image-20210805230303461.png" alt="image-20210805230303461" style="zoom:80%;">
 
 <p>在映射配合文件的SQL语句中使用用 <code>arg</code> 开头的和 <code>param</code> 书写，代码的可读性会变的特别差，此时可以使用 <code>@Param</code> 注解。</p>
 </li>
@@ -1510,10 +1510,10 @@ map<span class="token punctuation">.</span><span class="token function">put</spa
 <p><strong>代码实现：</strong></p>
 <ul>
 <li><p>将之前案例中 <code>UserMapper.xml</code> 中的 根据id查询数据 的 <code>statement</code> 注释掉</p>
-<img src="assets/image-20210805235229938.png" alt="image-20210805235229938" style="zoom:70%;">
+<img src="https://avager.club/assets/image-20210805235229938.png" alt="image-20210805235229938" style="zoom:70%;">
 </li>
 <li><p>在 <code>UserMapper</code> 接口的 <code>selectById</code> 方法上添加注解</p>
-<img src="assets/image-20210805235405070.png" alt="image-20210805235405070" style="zoom:70%;">
+<img src="https://avager.club/assets/image-20210805235405070.png" alt="image-20210805235405070" style="zoom:70%;">
 </li>
 <li><p>运行测试程序也能正常查询到数据</p>
 </li>
@@ -1523,7 +1523,7 @@ map<span class="token punctuation">.</span><span class="token function">put</spa
 <p><img src="/assets/image-20210805234302849.png" alt="image-20210805234302849"></p>
 <p>所以，==注解完成简单功能，配置文件完成复杂功能。==</p>
 <p>而我们之前写的动态 SQL 就是复杂的功能，如果用注解使用的话，就需要使用到 Mybatis 提供的SQL构建器来完成，而对应的代码如下：</p>
-<img src="assets/image-20210805234842497.png" alt="image-20210805234842497" style="zoom:70%;">
+<img src="https://avager.club/assets/image-20210805234842497.png" alt="image-20210805234842497" style="zoom:70%;">
 
 <p>上述代码将java代码和SQL语句融到了一块，使得代码的可读性大幅度降低。</p>
 
