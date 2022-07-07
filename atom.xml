@@ -50,7 +50,7 @@
     <link href="http://www.avager.club/2022/07/07/zong-he-an-li/"/>
     <id>http://www.avager.club/2022/07/07/zong-he-an-li/</id>
     <published>2022-07-07T06:33:03.827Z</published>
-    <updated>2022-07-07T06:56:58.582Z</updated>
+    <updated>2022-07-07T07:09:22.942Z</updated>
     
     
       
@@ -295,9 +295,9 @@
     <category term="JDBC" scheme="http://www.avager.club/categories/JDBC/"/>
     
     
-    <category term="JDBC" scheme="http://www.avager.club/tags/JDBC/"/>
-    
     <category term="黑马程序员" scheme="http://www.avager.club/tags/%E9%BB%91%E9%A9%AC%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    <category term="JDBC" scheme="http://www.avager.club/tags/JDBC/"/>
     
   </entry>
   
@@ -538,18 +538,18 @@
   </entry>
   
   <entry>
-    <title>JDBC</title>
-    <link href="http://www.avager.club/2022/06/20/jdbc/"/>
-    <id>http://www.avager.club/2022/06/20/jdbc/</id>
+    <title>AJAX</title>
+    <link href="http://www.avager.club/2022/06/20/ajax/"/>
+    <id>http://www.avager.club/2022/06/20/ajax/</id>
     <published>2022-06-20T01:25:00.000Z</published>
-    <updated>2022-06-20T11:10:00.480Z</updated>
+    <updated>2022-06-20T11:20:38.953Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;JDBC&quot;&gt;&lt;a href=&quot;#JDBC&quot; class=&quot;headerlink&quot; title=&quot;JDBC&quot;&gt;&lt;/a&gt;JDBC&lt;/h1&gt;&lt;h2 id=&quot;JDBC入门&quot;&gt;&lt;a href=&quot;#JDBC入门&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h1 id=&quot;AJAX&quot;&gt;&lt;a href=&quot;#AJAX&quot; class=&quot;headerlink&quot; title=&quot;AJAX&quot;&gt;&lt;/a&gt;AJAX&lt;/h1&gt;&lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -560,7 +560,7 @@
     
     <category term="JavaWeb" scheme="http://www.avager.club/tags/JavaWeb/"/>
     
-    <category term="JDBC" scheme="http://www.avager.club/tags/JDBC/"/>
+    <category term="AJAX" scheme="http://www.avager.club/tags/AJAX/"/>
     
   </entry>
   
