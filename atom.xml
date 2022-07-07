@@ -6,7 +6,7 @@
   <link href="http://www.avager.club/atom.xml" rel="self"/>
   
   <link href="http://www.avager.club/"/>
-  <updated>2022-07-06T02:27:37.760Z</updated>
+  <updated>2022-07-07T06:55:32.016Z</updated>
   <id>http://www.avager.club/</id>
   
   <author>
@@ -15,6 +15,345 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>VUE&amp;Element</title>
+    <link href="http://www.avager.club/2022/07/07/vue-element-zong-he-an-li/"/>
+    <id>http://www.avager.club/2022/07/07/vue-element-zong-he-an-li/</id>
+    <published>2022-07-07T06:34:14.766Z</published>
+    <updated>2022-07-07T06:55:32.016Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;VUE-amp-Element&quot;&gt;&lt;a href=&quot;#VUE-amp-Element&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="JavaWeb" scheme="http://www.avager.club/categories/JavaWeb/"/>
+    
+    
+    <category term="黑马程序员" scheme="http://www.avager.club/tags/%E9%BB%91%E9%A9%AC%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    <category term="VUE" scheme="http://www.avager.club/tags/VUE/"/>
+    
+    <category term="Element" scheme="http://www.avager.club/tags/Element/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaWeb综合案例</title>
+    <link href="http://www.avager.club/2022/07/07/zong-he-an-li/"/>
+    <id>http://www.avager.club/2022/07/07/zong-he-an-li/</id>
+    <published>2022-07-07T06:33:03.827Z</published>
+    <updated>2022-07-07T06:56:58.582Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;综合案例&quot;&gt;&lt;a href=&quot;#综合案例&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="JavaWeb" scheme="http://www.avager.club/categories/JavaWeb/"/>
+    
+    
+    <category term="黑马程序员" scheme="http://www.avager.club/tags/%E9%BB%91%E9%A9%AC%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    <category term="javaweb案例" scheme="http://www.avager.club/tags/javaweb%E6%A1%88%E4%BE%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JSP黑马</title>
+    <link href="http://www.avager.club/2022/07/07/jsp-hei-ma/"/>
+    <id>http://www.avager.club/2022/07/07/jsp-hei-ma/</id>
+    <published>2022-07-07T06:32:39.279Z</published>
+    <updated>2022-07-07T06:53:01.651Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;JSP&quot;&gt;&lt;a href=&quot;#JSP&quot; class=&quot;headerlink&quot; title=&quot;JSP&quot;&gt;&lt;/a&gt;JSP&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;今日目标：&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;理解 JSP 及 JSP</summary>
+        
+      
+    
+    
+    
+    <category term="JavaWeb" scheme="http://www.avager.club/categories/JavaWeb/"/>
+    
+    
+    <category term="黑马程序员" scheme="http://www.avager.club/tags/%E9%BB%91%E9%A9%AC%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    <category term="JSP" scheme="http://www.avager.club/tags/JSP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Request&amp;Response</title>
+    <link href="http://www.avager.club/2022/07/07/request-response/"/>
+    <id>http://www.avager.club/2022/07/07/request-response/</id>
+    <published>2022-07-07T06:32:31.393Z</published>
+    <updated>2022-07-07T06:51:37.698Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Request-amp-Response&quot;&gt;&lt;a href=&quot;#Request-amp-Response&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="JavaWeb" scheme="http://www.avager.club/categories/JavaWeb/"/>
+    
+    
+    <category term="黑马程序员" scheme="http://www.avager.club/tags/%E9%BB%91%E9%A9%AC%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    <category term="Request" scheme="http://www.avager.club/tags/Request/"/>
+    
+    <category term="Response" scheme="http://www.avager.club/tags/Response/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HTTP&amp;Tomcat&amp;Servlet</title>
+    <link href="http://www.avager.club/2022/07/07/http-tomcat-servlet/"/>
+    <id>http://www.avager.club/2022/07/07/http-tomcat-servlet/</id>
+    <published>2022-07-07T06:32:21.240Z</published>
+    <updated>2022-07-07T06:50:21.057Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;HTTP-amp-Tomcat-amp-Servlet&quot;&gt;&lt;a href=&quot;#HTTP-amp-Tomcat-amp-Servlet&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="JavaWeb" scheme="http://www.avager.club/categories/JavaWeb/"/>
+    
+    
+    <category term="HTTP" scheme="http://www.avager.club/tags/HTTP/"/>
+    
+    <category term="Tomcat" scheme="http://www.avager.club/tags/Tomcat/"/>
+    
+    <category term="Servlet" scheme="http://www.avager.club/tags/Servlet/"/>
+    
+    <category term="黑马程序员" scheme="http://www.avager.club/tags/%E9%BB%91%E9%A9%AC%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaScript</title>
+    <link href="http://www.avager.club/2022/07/07/javascript-hei-ma/"/>
+    <id>http://www.avager.club/2022/07/07/javascript-hei-ma/</id>
+    <published>2022-07-07T06:32:11.748Z</published>
+    <updated>2022-07-07T06:48:20.315Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;JavaScript&quot;&gt;&lt;a href=&quot;#JavaScript&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="JavaWeb" scheme="http://www.avager.club/categories/JavaWeb/"/>
+    
+    
+    <category term="黑马程序员" scheme="http://www.avager.club/tags/%E9%BB%91%E9%A9%AC%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    <category term="JavaScript" scheme="http://www.avager.club/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HTML&amp;CSS</title>
+    <link href="http://www.avager.club/2022/07/07/html-css/"/>
+    <id>http://www.avager.club/2022/07/07/html-css/</id>
+    <published>2022-07-07T06:32:06.399Z</published>
+    <updated>2022-07-07T06:48:34.526Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;HTML-amp-CSS&quot;&gt;&lt;a href=&quot;#HTML-amp-CSS&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="JavaWeb" scheme="http://www.avager.club/categories/JavaWeb/"/>
+    
+    
+    <category term="黑马程序员" scheme="http://www.avager.club/tags/%E9%BB%91%E9%A9%AC%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    <category term="HTML" scheme="http://www.avager.club/tags/HTML/"/>
+    
+    <category term="CSS" scheme="http://www.avager.club/tags/CSS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Mybatis练习</title>
+    <link href="http://www.avager.club/2022/07/07/mybatis/"/>
+    <id>http://www.avager.club/2022/07/07/mybatis/</id>
+    <published>2022-07-07T06:32:01.218Z</published>
+    <updated>2022-07-07T06:48:52.012Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Mybatis练习&quot;&gt;&lt;a href=&quot;#Mybatis练习&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="JavaWeb" scheme="http://www.avager.club/categories/JavaWeb/"/>
+    
+    
+    <category term="黑马程序员" scheme="http://www.avager.club/tags/%E9%BB%91%E9%A9%AC%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    <category term="Mybatis" scheme="http://www.avager.club/tags/Mybatis/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Maven&amp;MyBatis</title>
+    <link href="http://www.avager.club/2022/07/07/maven-mybatis/"/>
+    <id>http://www.avager.club/2022/07/07/maven-mybatis/</id>
+    <published>2022-07-07T06:31:55.810Z</published>
+    <updated>2022-07-07T06:48:46.238Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Maven-amp-MyBatis&quot;&gt;&lt;a href=&quot;#Maven-amp-MyBatis&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="JavaWeb" scheme="http://www.avager.club/categories/JavaWeb/"/>
+    
+    
+    <category term="黑马程序员" scheme="http://www.avager.club/tags/%E9%BB%91%E9%A9%AC%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    <category term="Maven" scheme="http://www.avager.club/tags/Maven/"/>
+    
+    <category term="MyBatis" scheme="http://www.avager.club/tags/MyBatis/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JDBC</title>
+    <link href="http://www.avager.club/2022/07/07/jdbc-hei-ma/"/>
+    <id>http://www.avager.club/2022/07/07/jdbc-hei-ma/</id>
+    <published>2022-07-07T06:31:49.988Z</published>
+    <updated>2022-07-07T06:40:23.078Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;JDBC&quot;&gt;&lt;a href=&quot;#JDBC&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="JDBC" scheme="http://www.avager.club/categories/JDBC/"/>
+    
+    
+    <category term="JDBC" scheme="http://www.avager.club/tags/JDBC/"/>
+    
+    <category term="黑马程序员" scheme="http://www.avager.club/tags/%E9%BB%91%E9%A9%AC%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MySql高级</title>
+    <link href="http://www.avager.club/2022/07/07/mysql-gao-ji/"/>
+    <id>http://www.avager.club/2022/07/07/mysql-gao-ji/</id>
+    <published>2022-07-07T06:31:44.453Z</published>
+    <updated>2022-07-07T06:37:53.717Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;mysql高级&quot;&gt;&lt;a href=&quot;#mysql高级&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="MySql" scheme="http://www.avager.club/categories/MySql/"/>
+    
+    
+    <category term="黑马程序员" scheme="http://www.avager.club/tags/%E9%BB%91%E9%A9%AC%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    <category term="MySql" scheme="http://www.avager.club/tags/MySql/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MySql基础</title>
+    <link href="http://www.avager.club/2022/07/07/mysql-ji-chu/"/>
+    <id>http://www.avager.club/2022/07/07/mysql-ji-chu/</id>
+    <published>2022-07-07T06:31:31.926Z</published>
+    <updated>2022-07-07T06:36:35.793Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;MySQL基础&quot;&gt;&lt;a href=&quot;#MySQL基础&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="MySql" scheme="http://www.avager.club/categories/MySql/"/>
+    
+    
+    <category term="黑马程序员" scheme="http://www.avager.club/tags/%E9%BB%91%E9%A9%AC%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    <category term="MySql" scheme="http://www.avager.club/tags/MySql/"/>
+    
+  </entry>
   
   <entry>
     <title>天眼</title>
@@ -46,7 +385,7 @@
     <link href="http://www.avager.club/2022/07/06/mybatis-xue-xi-bi-ji/"/>
     <id>http://www.avager.club/2022/07/06/mybatis-xue-xi-bi-ji/</id>
     <published>2022-07-06T02:00:45.576Z</published>
-    <updated>2022-07-06T02:06:44.782Z</updated>
+    <updated>2022-07-07T06:48:59.549Z</updated>
     
     
       
@@ -59,8 +398,10 @@
     
     
     
-    <category term="Mybatis" scheme="http://www.avager.club/categories/Mybatis/"/>
+    <category term="JavaWeb" scheme="http://www.avager.club/categories/JavaWeb/"/>
     
+    
+    <category term="黑马程序员" scheme="http://www.avager.club/tags/%E9%BB%91%E9%A9%AC%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
     
     <category term="Mybatis" scheme="http://www.avager.club/tags/Mybatis/"/>
     
@@ -71,7 +412,7 @@
     <link href="http://www.avager.club/2022/07/06/mysql-shi-wu-xue-xi-bi-ji/"/>
     <id>http://www.avager.club/2022/07/06/mysql-shi-wu-xue-xi-bi-ji/</id>
     <published>2022-07-06T01:59:55.409Z</published>
-    <updated>2022-07-06T06:09:57.190Z</updated>
+    <updated>2022-07-07T06:46:33.093Z</updated>
     
     
       
@@ -84,7 +425,7 @@
     
     
     
-    <category term="MySql" scheme="http://www.avager.club/categories/MySql/"/>
+    <category term="JavaWeb" scheme="http://www.avager.club/categories/JavaWeb/"/>
     
     
     <category term="MySql事务" scheme="http://www.avager.club/tags/MySql%E4%BA%8B%E5%8A%A1/"/>
@@ -197,33 +538,6 @@
   </entry>
   
   <entry>
-    <title>AJAX</title>
-    <link href="http://www.avager.club/2022/06/20/ajax/"/>
-    <id>http://www.avager.club/2022/06/20/ajax/</id>
-    <published>2022-06-20T01:25:00.000Z</published>
-    <updated>2022-06-20T11:20:38.953Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;AJAX&quot;&gt;&lt;a href=&quot;#AJAX&quot; class=&quot;headerlink&quot; title=&quot;AJAX&quot;&gt;&lt;/a&gt;AJAX&lt;/h1&gt;&lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="JavaWeb" scheme="http://www.avager.club/categories/JavaWeb/"/>
-    
-    
-    <category term="JavaWeb" scheme="http://www.avager.club/tags/JavaWeb/"/>
-    
-    <category term="AJAX" scheme="http://www.avager.club/tags/AJAX/"/>
-    
-  </entry>
-  
-  <entry>
     <title>JDBC</title>
     <link href="http://www.avager.club/2022/06/20/jdbc/"/>
     <id>http://www.avager.club/2022/06/20/jdbc/</id>
@@ -247,230 +561,6 @@
     <category term="JavaWeb" scheme="http://www.avager.club/tags/JavaWeb/"/>
     
     <category term="JDBC" scheme="http://www.avager.club/tags/JDBC/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JSP</title>
-    <link href="http://www.avager.club/2022/06/20/jsp/"/>
-    <id>http://www.avager.club/2022/06/20/jsp/</id>
-    <published>2022-06-20T01:25:00.000Z</published>
-    <updated>2022-06-20T11:09:58.223Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;JSP-包含表的增删改查案例&quot;&gt;&lt;a href=&quot;#JSP-包含表的增删改查案例&quot; class=&quot;headerlink&quot; title=&quot;JSP(包含表的增删改查案例)&quot;&gt;&lt;/a&gt;JSP(包含表的增删改查案例)&lt;/h1&gt;&lt;p&gt;&lt;img</summary>
-        
-      
-    
-    
-    
-    <category term="JavaWeb" scheme="http://www.avager.club/categories/JavaWeb/"/>
-    
-    
-    <category term="JavaWeb" scheme="http://www.avager.club/tags/JavaWeb/"/>
-    
-    <category term="JSP" scheme="http://www.avager.club/tags/JSP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JavaScript</title>
-    <link href="http://www.avager.club/2022/06/20/javascript/"/>
-    <id>http://www.avager.club/2022/06/20/javascript/</id>
-    <published>2022-06-20T01:25:00.000Z</published>
-    <updated>2022-06-20T11:10:01.184Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;JavaScript&quot;&gt;&lt;a href=&quot;#JavaScript&quot; class=&quot;headerlink&quot; title=&quot;JavaScript&quot;&gt;&lt;/a&gt;JavaScript&lt;/h1&gt;&lt;h2 id=&quot;概念&quot;&gt;&lt;a href=&quot;#概念&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="JavaWeb" scheme="http://www.avager.club/categories/JavaWeb/"/>
-    
-    
-    <category term="JavaScript" scheme="http://www.avager.club/tags/JavaScript/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SpringMVC_day01</title>
-    <link href="http://www.avager.club/2022/06/20/springmvc-day01/"/>
-    <id>http://www.avager.club/2022/06/20/springmvc-day01/</id>
-    <published>2022-06-20T01:25:00.000Z</published>
-    <updated>2022-06-22T07:43:12.979Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;SpringMVC-day01&quot;&gt;&lt;a href=&quot;#SpringMVC-day01&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="框架" scheme="http://www.avager.club/categories/%E6%A1%86%E6%9E%B6/"/>
-    
-    
-    <category term="Typora" scheme="http://www.avager.club/tags/Typora/"/>
-    
-    <category term="Markdown" scheme="http://www.avager.club/tags/Markdown/"/>
-    
-    <category term="Spring" scheme="http://www.avager.club/tags/Spring/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SpringMVC_day02</title>
-    <link href="http://www.avager.club/2022/06/20/springmvc-day02/"/>
-    <id>http://www.avager.club/2022/06/20/springmvc-day02/</id>
-    <published>2022-06-20T01:25:00.000Z</published>
-    <updated>2022-06-22T07:43:19.353Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;SpringMVC-day02&quot;&gt;&lt;a href=&quot;#SpringMVC-day02&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="框架" scheme="http://www.avager.club/categories/%E6%A1%86%E6%9E%B6/"/>
-    
-    
-    <category term="Typora" scheme="http://www.avager.club/tags/Typora/"/>
-    
-    <category term="Markdown" scheme="http://www.avager.club/tags/Markdown/"/>
-    
-    <category term="Spring" scheme="http://www.avager.club/tags/Spring/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Spring_day02</title>
-    <link href="http://www.avager.club/2022/06/20/spring-day02/"/>
-    <id>http://www.avager.club/2022/06/20/spring-day02/</id>
-    <published>2022-06-20T01:25:00.000Z</published>
-    <updated>2022-06-20T09:35:49.206Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;Spring-day02&quot;&gt;&lt;a href=&quot;#Spring-day02&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="框架" scheme="http://www.avager.club/categories/%E6%A1%86%E6%9E%B6/"/>
-    
-    
-    <category term="Typora" scheme="http://www.avager.club/tags/Typora/"/>
-    
-    <category term="Markdown" scheme="http://www.avager.club/tags/Markdown/"/>
-    
-    <category term="Spring" scheme="http://www.avager.club/tags/Spring/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Spring_day03</title>
-    <link href="http://www.avager.club/2022/06/20/spring-day03/"/>
-    <id>http://www.avager.club/2022/06/20/spring-day03/</id>
-    <published>2022-06-20T01:25:00.000Z</published>
-    <updated>2022-06-20T09:35:44.524Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;Spring-day03&quot;&gt;&lt;a href=&quot;#Spring-day03&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="框架" scheme="http://www.avager.club/categories/%E6%A1%86%E6%9E%B6/"/>
-    
-    
-    <category term="Typora" scheme="http://www.avager.club/tags/Typora/"/>
-    
-    <category term="Markdown" scheme="http://www.avager.club/tags/Markdown/"/>
-    
-    <category term="Spring" scheme="http://www.avager.club/tags/Spring/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>微信小程序开发</title>
-    <link href="http://www.avager.club/2022/06/20/wei-xin-xiao-cheng-xu-kai-fa/"/>
-    <id>http://www.avager.club/2022/06/20/wei-xin-xiao-cheng-xu-kai-fa/</id>
-    <published>2022-06-20T01:25:00.000Z</published>
-    <updated>2022-06-21T00:41:17.026Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;微信小程序开发&quot;&gt;&lt;a href=&quot;#微信小程序开发&quot; class=&quot;headerlink&quot; title=&quot;微信小程序开发&quot;&gt;&lt;/a&gt;微信小程序开发&lt;/h1&gt;&lt;h2 id=&quot;1-swiper组件属性&quot;&gt;&lt;a href=&quot;#1-swiper组件属性&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="开发" scheme="http://www.avager.club/categories/%E5%BC%80%E5%8F%91/"/>
-    
-    
-    <category term="Markdown" scheme="http://www.avager.club/tags/Markdown/"/>
-    
-    <category term="微信小程序开发" scheme="http://www.avager.club/tags/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Spring_day01</title>
-    <link href="http://www.avager.club/2022/06/20/spring-1/"/>
-    <id>http://www.avager.club/2022/06/20/spring-1/</id>
-    <published>2022-06-20T01:25:00.000Z</published>
-    <updated>2022-06-20T11:01:39.068Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;Spring-day01&quot;&gt;&lt;a href=&quot;#Spring-day01&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="框架" scheme="http://www.avager.club/categories/%E6%A1%86%E6%9E%B6/"/>
-    
-    
-    <category term="Typora" scheme="http://www.avager.club/tags/Typora/"/>
-    
-    <category term="Markdown" scheme="http://www.avager.club/tags/Markdown/"/>
-    
-    <category term="Spring" scheme="http://www.avager.club/tags/Spring/"/>
     
   </entry>
   
