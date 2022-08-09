@@ -6,7 +6,7 @@
   <link href="http://www.avager.club/atom.xml" rel="self"/>
   
   <link href="http://www.avager.club/"/>
-  <updated>2022-07-22T08:12:02.078Z</updated>
+  <updated>2022-08-09T09:25:12.721Z</updated>
   <id>http://www.avager.club/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Java面试题</title>
+    <link href="http://www.avager.club/2022/08/09/java-mian-shi-ti/"/>
+    <id>http://www.avager.club/2022/08/09/java-mian-shi-ti/</id>
+    <published>2022-08-09T09:23:43.977Z</published>
+    <updated>2022-08-09T09:25:12.721Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Java面试题&quot;&gt;&lt;a href=&quot;#Java面试题&quot; class=&quot;headerlink&quot; title=&quot;Java面试题&quot;&gt;&lt;/a&gt;Java面试题&lt;/h1&gt;&lt;h2 id=&quot;MySQL索引-以及它们的好处和坏处&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Java" scheme="http://www.avager.club/categories/Java/"/>
+    
+    
+    <category term="Java面试题" scheme="http://www.avager.club/tags/Java%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
+    
+  </entry>
   
   <entry>
     <title>进程与线程</title>
@@ -533,33 +558,6 @@
     
     
     <category term="MySql事务" scheme="http://www.avager.club/tags/MySql%E4%BA%8B%E5%8A%A1/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>简单排序</title>
-    <link href="http://www.avager.club/2022/07/02/jian-dan-pai-xu/"/>
-    <id>http://www.avager.club/2022/07/02/jian-dan-pai-xu/</id>
-    <published>2022-07-02T07:59:42.350Z</published>
-    <updated>2022-07-22T08:12:25.879Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;简单排序&quot;&gt;&lt;a href=&quot;#简单排序&quot; class=&quot;headerlink&quot; title=&quot;简单排序&quot;&gt;&lt;/a&gt;简单排序&lt;/h1&gt;&lt;h2 id=&quot;冒泡排序&quot;&gt;&lt;a href=&quot;#冒泡排序&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="数据结构与算法" scheme="http://www.avager.club/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
-    
-    
-    <category term="简单排序" scheme="http://www.avager.club/tags/%E7%AE%80%E5%8D%95%E6%8E%92%E5%BA%8F/"/>
-    
-    <category term="算法" scheme="http://www.avager.club/tags/%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
